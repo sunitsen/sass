@@ -1,0 +1,98 @@
+/*=========reset css===========*/
+.flex-cnt, .welcome-noot {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*-------color variables----------*/
+/*------font size variables------------*/
+/*------font size variables------------*/
+/*----bootstrep customize css-----*/
+/*------background--------*/
+/*-----z index------*/
+/*-------border radious------*/
+/*=========sass variables===========*/
+/*--
+
+
+.button-1 {
+  width: 200px;
+  height: 50px;
+  font-size: 1.5rem;
+  text-transform:capitalize;
+  font-weight: 600;
+  border: 1px solid #000;
+  background: #eee;
+  border-radius: .5rem;
+   @extend .btn;
+  }
+  .btn{
+    background: $color-1;
+  }
+  .btn:hover{
+    color:$color-3;
+    background-color: $color-4;
+   
+  }
+--*/
+/*------header navbar-----*/
+header {
+  width: 100%;
+  height: 100%;
+}
+
+.container-fluid {
+  width: 85% !important;
+}
+
+.hero-banner {
+  width: 100%;
+  height: 100%;
+}
+
+/*------navbar---------*/
+header .navbar {
+  background: gray;
+  border-radius: 10px;
+}
+
+.hero {
+  position: relative;
+}
+
+.hero .overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: blue;
+  opacity: .5;
+}
+
+.welcome-noot {
+  color: orange;
+  z-index: 1;
+  font-size: 3.5rem;
+}
+/*# sourceMappingURL=style.css.map */
